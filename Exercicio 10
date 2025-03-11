@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Exercicio_10 {
+   public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+       System.out.println("Qual a largura da parede? ");
+       Double largura = scanner.nextDouble();
+
+       System.out.println("Qual a altura da parede: ");
+       Double altura = scanner.nextDouble();
+
+       Double area = largura * altura;
+       Double litro = area / 2;
+
+       System.out.println("A largura da parede é " + largura + " a altura é " + altura + " A area da parede ficou: " + area + " você vai precisar de " + litro + " Litros");
+   }
+}
