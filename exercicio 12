@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class promocao {
+   public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+       System.out.println("Qual é o preço do produto? ");
+       Double preco = scanner.nextDouble();
+
+       Double promoção = (preco * 1.05) - preco;
+       Double valor = preco - promoção;
+
+       System.out.println("O desconto foi de: " + promoção + " o preço final ficou " + valor);
+   }
+}
