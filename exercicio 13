@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class salario {
+   public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+       System.out.println("Qual é o salario? ");
+       Double salario = scanner.nextDouble();
+
+       Double aumento = (salario * 1.15) - salario;
+       Double valor = salario + aumento;
+
+       System.out.println("O aumento foi de: " + aumento + " o salario final ficou " + valor);
+
+   }
+}
