@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class exercicio9 {
+   public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+       System.out.println("Quanto dinheiro você tem na carteira? ");
+       Double dinheiro = scanner.nextDouble();
+
+       Double dolar = dinheiro / 5.73;
+
+       System.out.println("Você tem na carteira " + dinheiro + " e você consegue comprar " + dolar + " Dolares");
+
+   }
+}
