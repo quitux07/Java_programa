@@ -1,0 +1,13 @@
+exercicio 2
+import java.util.Scanner;
+public class Exercicio2 {
+   public static void main(String[] args) {
+       System.out.println("Digite o Seu Nome:");
+       Scanner Sc = new Scanner(System.in);
+
+
+       String nome = Sc.nextLine();
+       System.out.println("Olá, seja bem-vindo " + nome + "!");
+       Sc.close();
+   }
+}
