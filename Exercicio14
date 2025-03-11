@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Exercicio14 {
+   public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+       System.out.println("Quantos km foram percorridos com carro alugado? ");
+       Double km = scanner.nextDouble();
+
+       System.out.println("Quantos dias você ficou com o carro? ");
+       Double dias = scanner.nextDouble();
+
+       Double km_total = km * 0.20;
+       Double dias_total = dias * 90;
+       Double total = km_total + dias_total;
+
+       System.out.println("Você ficou " +dias+ " dias que totaliza R$ " +dias_total+ ", Você rodou " +km+ " km que ficou no valor de: " +km_total+ " e o valor total da locação do carro ficou no total de: " +total);
+
+
+   }
+}
