@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class Quinto {
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+
+
+       System.out.println("Coloque Sua Primeira Nota: ");
+       double primeiraNota = sc.nextDouble();
+
+
+       System.out.println("Coloque Sua Segunda Nota: ");
+       double segundaNota = sc.nextDouble();
+
+
+       // Calcular a média
+       double media = (primeiraNota + segundaNota) / 2;
+
+
+       // Exibir a média
+       System.out.println("A média do aluno é: " + media);
+   }
+}
