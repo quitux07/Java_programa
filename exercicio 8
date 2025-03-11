@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Ex_8 {
+   public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+       System.out.println("Digite uma distância em metros: ");
+       Double metros = scanner.nextDouble();
+
+       Double decametro = metros / 10;
+       Double hectrometro = metros / 100;
+       Double quilometro = metros / 1000;
+
+       Double decimetro = metros * 10;
+       Double centimetro = metros * 100;
+       Double milimetro = metros * 1000;
+
+       System.out.println("Metros: "+metros+ ", Decâmetro: " +decametro+", Hectômetro: " +hectrometro+ ", Quilômetro: " +quilometro+ ", Decímetro: " +decimetro+ ", Centímetro: "+centimetro+ ", Milímetro: " +milimetro);
+
+
+   }
+}
