@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Terceiro {
+   public static void main(String[] args) {
+       System.out.println("Qual o Seu Nome?");
+       Scanner sc = new Scanner(System.in);
+
+
+       String Nome = sc.nextLine();
+       System.out.println("Qual seu Salário?");
+       String Salario = sc.nextLine();
+       System.out.println("Seu nome é " + Nome + " e seu salário é " + Salario + ".");
+       sc.close();
+   }
+}
